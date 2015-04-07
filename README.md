@@ -64,7 +64,7 @@ It is specified as:
  ````
 
 
-* Introduced a feature flag "MIROR" in the application, which when turned on, will forward information added to the picture list, to the other slice.
+* Introduced a feature flag "MIRROR" in the application, which when turned on, will forward information added to the picture list, to the other slice.
 
 ````
 if(MIRROR == 'true' && req.url == '/upload')
