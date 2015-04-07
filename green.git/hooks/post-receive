@@ -1,0 +1,3 @@
+#!/bin/sh
+GIT_WORK_TREE=/Users/tejal/deploy/green-www/ git checkout -f
+cd /Users/tejal/deploy/blue-www/ && npm install && cd -
