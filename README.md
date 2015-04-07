@@ -10,6 +10,7 @@ The folder structure created is as follows:
 Deployed the web application with the following additional considerations:
 * git/hook setup for triggering deployment on push:
   The hook is in the post-receive file in the hooks directory in blue.git and green.git as follows:
+
     #!/bin/sh
     GIT_WORK_TREE=/Users/tejal/deploy/blue-www/ git checkout -f
     cd /Users/tejal/deploy/blue-www/ && npm install && cd -  
