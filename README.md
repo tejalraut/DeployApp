@@ -16,6 +16,7 @@ Deployed the web application with the following additional considerations:
     cd /Users/tejal/deploy/blue-www/ && npm install && cd -  
 
 
+
 * Create blue/green infrastructure for deployment, including a blue redis instance and green redis instance.
 
 
